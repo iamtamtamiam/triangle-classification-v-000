@@ -4,7 +4,7 @@ class Triangle
   
   def initialize(a, b, c)
     if a <= 0 || b <= 0 || c <= 0 
-      
+      raise 
     @a = a 
     @b = b 
     @c = c 
